@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .logo span { color: teal; }
+  
+  .navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  .navbar a.active { color: teal; font-weight: bold; }
+  
+  .contact-info { font-size: 14px; color: teal; }
+  
+  .sub-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background: #f5f5f5;
+  }
+  .sub-header input {
+    padding: 8px;
+    width: 200px;
+  }
+  .tabs a {
+    margin: 0 10px;
+    color: teal;
+    text-decoration: none;
+  }
+  .btn {
+    background: teal;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 30px;
+    background: #e0f2f1;
+  }
+  .hero h1 { margin-bottom: 20px; }
+  .hero img {
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .content {
+    padding: 40px;
+  }
+  .steps li {
+    margin: 10px 0;
+    list-style: decimal;
+  }
+  
+  .form-section {
+    padding: 40px;
+    background: #fafafa;
+  }
+  .form-section form {
+    max-width: 700px;
+    margin: auto;
+  }
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+  }
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin: 15px 0;
+    padding: 10px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+  }
+  .card {
+    background: #002b36;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    flex: 1;
+    text-align: center;
+  }
+  
+  footer {
+    background: #f5f5f5;
+    padding: 30px;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+  }
+  footer .logo { font-size: 20px; }
+  footer .links a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+  footer .btn { margin-top: 10px; }
+  footer .contact p { margin: 5px 0; }
+  footer .copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
